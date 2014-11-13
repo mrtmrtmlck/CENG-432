@@ -6,7 +6,6 @@ class IyteImmutableList {
     val temp = Array(element);
     im.immutablelist = Array.concat(immutablelist,temp );  // temprorily adds a element to the list
     im;
-    im;
   }
 
   override def toString(): String = {
