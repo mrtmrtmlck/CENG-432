@@ -15,6 +15,7 @@ object test {
     println("\nImmutable List1: " + immutableList.toString());
     println("Immutable List2: " + list2);
     println("Immutable List3: " + list3);
+    println("Immutable List4: " + list4);
 
   }
 }
