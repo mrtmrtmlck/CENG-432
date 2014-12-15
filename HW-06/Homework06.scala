@@ -10,7 +10,7 @@ object UserManager extends UserManagerTrait {
 
   def add(name: String, email: String, grade: Int): Option[User] = {
     val user = User(name, email, grade)
-    if (userSet.contains(user))
+    if (userSet.exists(u => u.email == email))
       None
     else {
       userSet += user;
